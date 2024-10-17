@@ -7,7 +7,7 @@ interface CardProps {
 export default function Card({ image, artist, song }: CardProps) {
 	return (
 		<>
-			<div className='card'>
+			<div className='card w-13 h-auto'>
 				<div className='card-body px-3 pt-3'>
 					<img src={image} alt='' className='rounded-md' />
 				</div>
