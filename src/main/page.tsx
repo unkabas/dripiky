@@ -5,7 +5,11 @@ export default function Main() {
 	return (
 		<div>
 			<Navbar />
-			<Card />
+			<Card
+				image='https://picsum.photos/200'
+				artist='Dua Lipa'
+				song='Physical'
+			/>
 		</div>
 	)
 }
